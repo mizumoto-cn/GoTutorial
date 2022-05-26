@@ -17,6 +17,12 @@ const (
 	e        // e = 5
 )
 
+// var (
+// 	a int
+// 	b bool
+// 	str string
+// ) //use ctrl+/ to fast comment in vscode
+
 func main() {
 	fmt.Printf("a=%d,b=%d,c=%d,d=%d,e=%d", a, b, c, d, e)
 }
