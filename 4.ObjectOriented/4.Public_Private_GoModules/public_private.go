@@ -3,7 +3,7 @@
 // An identifier is exported if it begins with a capital letter.
 package main
 
-import "timer"
+import "github/mizumoto-cn/gotut/4.ObjectOriented/4.Public_Private_GoModules/timer"
 
 func main() {
 	timestamp := timer.Timestamp{}
