@@ -25,7 +25,7 @@ func main() {
 	// operate channels with range
 	ch := make(chan int, 10)
 	go fibonacci(cap(ch), ch) // cap() Channel: the channel buffer capacity, in units of elements;
-	for i := range c {
+	for i := range ch {
 		fmt.Println(i)
 	}
 }
