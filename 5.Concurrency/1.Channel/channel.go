@@ -19,10 +19,10 @@ func add_up(ai []int, c chan int) {
 }
 
 func main() {
-	a := []int{2, 43, 42, 97, 6, 8, 0, 13}
+	a := []int{2, 43, 42, 97, 6, 8, 0, 13, 9}
 	c := make(chan int)
-	go add_up(a[:len(a)/2], c)
-	go add_up(a[len(a)/2:], c)
+	go add_up(a[:len(a)/2], c) // 0-3
+	go add_up(a[len(a)/2:], c) // 4-9
 	x, y := <-c, <-c
 	// channels are blocked by default, no need to lock
 	// goroutine wont continue if receiving data from a empty channel
