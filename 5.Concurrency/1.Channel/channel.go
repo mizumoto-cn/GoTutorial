@@ -24,7 +24,7 @@ func main() {
 	go add_up(a[:len(a)/2], c)
 	go add_up(a[len(a)/2:], c)
 	x, y := <-c, <-c
-	// channels are blocked by dafault, no need to lock
+	// channels are blocked by default, no need to lock
 	// goroutine wont continue if receiving data from a empty channel
 	// nor will they if they send data to channel, until the data get received
 	fmt.Println(x, " ", y, " ", x+y)
