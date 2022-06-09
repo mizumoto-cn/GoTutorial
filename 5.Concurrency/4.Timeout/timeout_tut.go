@@ -7,16 +7,18 @@ func main() {
 	o := make(chan bool)
 
 	go func() {
+	L:
 		for {
+			println("beep")
 			select {
 			case v := <-c:
 				println(v)
 			case <-time.After(5 * time.Second):
 				println("timeout")
 				o <- true
-				break
+				break L
 			}
 		}
 	}()
-	<-o
+	println(<-o)
 }
