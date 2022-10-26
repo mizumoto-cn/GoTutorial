@@ -8,7 +8,7 @@ See [Menu](/tutorial/preface.md)
 
 ## About `/tutorial/code`
 
-Tons of sample codes from [astaxie/build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang). Highly appreciated. (Folders in /code whose names start with the single digit 0-6, basically.)
+Tons of sample codes are from [astaxie/build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang), they will follow the BSD-3 License if not mentioned particularly. Highly appreciated. (Folders in `/tutorial/code` whose names start with the single digit 0-6 only.)
 
 · Folders whose names start with the single digit 0-6 are for basic go grammar
 
