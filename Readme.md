@@ -2,11 +2,10 @@
 
 Basically, golang demo codes as a tutorial.
 
-## Menu
+## Table of Contents
+See [Table of Contents](/tutorial/preface.md) or [中文目录](/tutorial/preface_zh-cn.md)
 
-See [Menu](/tutorial/preface.md)
-
-## About `/tutorial/code`
+## About `/tutorial/draft/code`
 
 Tons of sample codes are from [astaxie/build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang), they will follow the BSD-3 License if not mentioned particularly. Highly appreciated. (Folders in `/tutorial/code` whose names start with the single digit 0-6 only.)
 
