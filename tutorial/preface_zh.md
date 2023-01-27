@@ -44,7 +44,7 @@
     - 5.10. [接口断言](05.10_zh-cn.md)
     - 5.11. [小结](05.11_zh-cn.md)
 * 6.[Go语言基础 - 并发](06.0_zh-cn.md)
-    - 6.1. [并发与并行](06.1_zh-cn.md)
+    - 6.1. [Go并发模型](06.1_zh-cn.md)
     - 6.2. [goroutine](06.2_zh-cn.md)
     - 6.3. [channel](06.3_zh-cn.md)
     - 6.4. [select](06.4_zh-cn.md)

@@ -44,7 +44,7 @@
     - 5.10. [Interface Assertions](05.10.md)
     - 5.11. [Summary](05.11.md)
 * 6.[Go Basic - Concurrency](06.0.md)
-    - 6.1. [Concurrency and Parallelism](06.1.md)
+    - 6.1. [Go Concurrency Model](06.1.md)
     - 6.2. [Goroutines](06.2.md)
     - 6.3. [Channels](06.3.md)
     - 6.4. [Select](06.4.md)
